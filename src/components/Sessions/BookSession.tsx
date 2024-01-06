@@ -34,8 +34,8 @@ const BookSession = ({ session, onDone }: BookSessionProps) => {
     <Modal ref={modal} onClose={onDone}>
       <h2>Book Session</h2>
       <form onSubmit={handleSubmit}>
-        <Input label="Your name" id="name" name="name" type="text" />
-        <Input label="Your email" id="email" name="email" type="email" />
+        <Input label="Your name" id="name" name="name" type="text" required/>
+        <Input label="Your email" id="email" name="email" type="email" required/>
         <p className="actions">
           <Button type="button" textOnly onClick={onDone}>
             Cancel
