@@ -14,7 +14,7 @@
 <ol>
 <li>cd into folder which contains package.json</li>
 <li>npm install</li>
-<li>npm run start</li>
+<li>npm run dev</li>
 </ol>
 <br>
 <br>
